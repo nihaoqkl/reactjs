@@ -1,4 +1,5 @@
-#react-0.14.6
+#我的reactjs 学习之路
+##react-0.14.6 来自react官网案列 
 
 # [React](https://facebook.github.io/react/) [![Build Status](https://travis-ci.org/facebook/react.svg?branch=0.14-stable)](https://travis-ci.org/facebook/react) [![npm version](https://badge.fury.io/js/react.svg)](http://badge.fury.io/js/react)
 
@@ -108,3 +109,5 @@ There's only so much we can cram in here. To read more about the community and g
 
 ## Troubleshooting
 See the [Troubleshooting Guide](https://github.com/facebook/react/wiki/Troubleshooting)
+=======
+# reactjs

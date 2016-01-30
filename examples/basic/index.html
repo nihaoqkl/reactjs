@@ -6,21 +6,20 @@
     <link rel="stylesheet" href="../shared/css/base.css" />
   </head>
   <body>
-    <h1>Basic Example</h1>
+    <h1>基础例子</h1>
     <div id="container">
       <p>
-        To install React, follow the instructions on
+        安装react, 根据下面的介绍
         <a href="https://github.com/facebook/react/">GitHub</a>.
       </p>
       <p>
-        If you can see this, React is not working right.
-        If you checked out the source from GitHub make sure to run <code>grunt</code>.
+        如果你看到这段文字说明react没有成功运行
       </p>
     </div>
-    <h4>Example Details</h4>
-    <p>This is written in vanilla JavaScript (without JSX) and transformed in the browser.</p>
+    <h4>细节</h4>
+    <p>原生javascript (无 JSX) 在浏览器端的转化.</p>
     <p>
-      Learn more about React at
+      学习更多
       <a href="https://facebook.github.io/react" target="_blank">facebook.github.io/react</a>.
     </p>
     <script src="../../build/react.js"></script>
@@ -31,7 +30,7 @@
           var elapsed = Math.round(this.props.elapsed  / 100);
           var seconds = elapsed / 10 + (elapsed % 10 ? '' : '.0' );
           var message =
-            'React has been successfully running for ' + seconds + ' seconds.';
+            'React 成功运行了 ' + seconds + ' 秒.';
 
           return React.DOM.p(null, message);
         }
